@@ -28,7 +28,7 @@ quietly {
 	rename _Y lat
 	rename _X lon
 	
-	*drop Antarctica from the map
+	*remove Antarctica from the map
 	drop if COUNTRY=="Antarctica"
 	drop rec_header-_merge
 	
