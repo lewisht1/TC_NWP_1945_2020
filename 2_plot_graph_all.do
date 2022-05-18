@@ -41,10 +41,10 @@ quietly {
 
 	set graphics off
 
-	*plot the world map
+	*plot the map
 	scatter lat lon, aspect(`=60/80') xla(100(5)180, grid) yla(0(5)60, ang(h) grid) yti(, orient(horiz)) plotregion(margin(none)) msize(tiny) msymbol(point) play("map.grec")
 
-	* plot the TC tracks on top of the world map
+	* plot the TC tracks on top of the map
 	cd "directory 4"
 
 	use master.dta, clear
@@ -52,7 +52,7 @@ quietly {
 	*shift the focus of the world map to Pacific Ocean
 	replace lon = 360 + lon if lon < 0
 	
-	*restrict the latitude and longitude of the map 
+	*restrict the latitude and longitude of the tracks 
 	keep if inrange(lat, 0, 60)
 	keep if inrange(lon, 100, 180)
 	
