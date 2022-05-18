@@ -141,7 +141,7 @@ quietly {
 				* average initial and final bearing
 				generate bearing_from_hk double = (bearing_from_hk1 + bearing_from_hk2) / 2
 				
-				* calculate speed (km/h) and approaching direction (decimal degree) TC
+				* calculate speed (km/h) and approaching direction (decimal degree)
 				local r_n = _N
 				generate speed double = .
 				generate approach_bearing = .
@@ -152,7 +152,7 @@ quietly {
 				
 					forvalues i = 2/`r_n' {
 						
-						* calculate time differences between each data point for each TC
+						* calculate time differences between data points
 						local lat1 = lat[`i'- 1]
 						local lat2 = lat[`i']
 						local lon1 = lon[`i'- 1]
