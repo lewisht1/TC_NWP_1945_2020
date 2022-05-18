@@ -2,7 +2,7 @@
 	This do file perform the following:
 	1. Import raw data files (one season per file) with the best tracks 
 	   (position, intensity etc.) of tropical cyclones (TCs) e.g., tropical 
-	   storm, typhoon, hurricane...) from the Northwest Pacific between 1945 to 
+	   storm, typhoon, hurricane from the Northwest Pacific between 1945 to 
 	   2020 downloaded from the Joint Tyhoon Warning Center (JTWC)
 	2. Calculate distances and bearing from Hong Kong (HK), moving speed, 
 	   approaching bearing and lanfall info. etc.
