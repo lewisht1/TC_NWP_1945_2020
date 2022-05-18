@@ -29,7 +29,7 @@ quietly {
 	rename _X lon
 	
 	*remove Antarctica from the map
-	drop if COUNTRY=="Antarctica"
+	drop if COUNTRY == "Antarctica"
 	drop rec_header-_merge
 	
 	*shift the focus of the world map to Pacific Ocean
