@@ -1,4 +1,4 @@
-# TC_WPC
+# TC_NWP_1945_2020
 1. These files were created to analyze tropical cyclone activities from the Northwest Pacific (NWP) basin between 1945 and 2020 from Joint Typhoon Warning Center (JTWC)    best tracks.
 2. All 'do' files uploaded were successfully tested under Stata 17.0.
 3. The order of running the files were denoted at the beginning of the file name. 
