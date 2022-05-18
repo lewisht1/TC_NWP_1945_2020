@@ -316,4 +316,3 @@ quietly {
 	noisily save "`folder_stata'\master_dtas\master.dta", replace
 
 }
-
